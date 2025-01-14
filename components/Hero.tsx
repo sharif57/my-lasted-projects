@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
@@ -43,7 +44,7 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Magic with Next.js
+            Unleashing the Power of Modern Web Development
           </p>
 
           {/**
@@ -52,12 +53,16 @@ const Hero = () => {
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Turning User Needs into Beautifully Functional Designs"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Adrian, a Next.js Developer based in Croatia.
+            Hi! I'm Sharif Mahamud, a passionate developer at Bdcalling It Ltd.
+            I specialize in building modern, efficient, and user-friendly web
+            applications, leveraging my skills in Next.js, React, and the MERN
+            stack. I'm dedicated to crafting solutions that make a difference.
+            🚀
           </p>
 
           <a href="#about">
