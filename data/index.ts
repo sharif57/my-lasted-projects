@@ -91,7 +91,7 @@ export const projects = [
   //   title: "AI Image SaaS - Canva Application",
   //   des: "A REAL Software-as-a-Service app with AI features and a payments and credits system. Users can create stunning graphics and designs with AI-powered tools, using the latest tech stack to ensure a seamless and intuitive experience.",
   //   img: "/p3.svg",
-  //   iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    // iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
   //   link: "/ui.aiimg.com",
   // },
   // {
@@ -107,38 +107,33 @@ export const projects = [
     title: "iceTeals - Digital Form Generator",
     des: "Developed an app for digitizing forms with pre-filled options and AI-based data generation. Users can create, save, and export form templates easily, improving efficiency in filling out forms.",
     img: "/ice3.webp",
-    iconLists: ["/react.svg", "/tail.svg", "/ts.svg", "/firebase.svg"],
-    link: "/ui.iceteals.com",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://iceproject-b188d.web.app/",
   },
   {
     id: 6,
     title: "JinStore - E-commerce Website",
     des: "Built a full-stack e-commerce platform with user authentication, product categorization, and a seamless checkout experience. Integrated with Stripe for payment processing and MongoDB for data storage.",
-    img: "/jinStore.svg",
-    iconLists: [
-      "/react.svg",
-      "/tail.svg",
-      "/node.svg",
-      "/stripe.svg",
-      "/mongodb.svg",
-    ],
-    link: "/ui.jinstore.com",
+    img: "/jinstore.png",
+       iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+
+    link: "https://jinstore-c5844.web.app/",
   },
   {
     id: 7,
     title: "FutureTech - Blog Website",
     des: "Developed a modern blog website with Next.js for server-side rendering and a sleek user interface. Implemented an admin dashboard for easy content management and SEO optimization for better visibility.",
-    img: "/futureTech.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/mongodb.svg", "/react.svg"],
-    link: "/ui.futuretech.com",
+    img: "/future.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://future-tech-blog.netlify.app/",
   },
   {
     id: 8,
     title: "Forum - Community Platform",
     des: "Built a responsive forum application with real-time chat and user discussions. The platform includes various community features like post creation, upvoting, commenting, and user profiles.",
-    img: "/forum.svg",
-    iconLists: ["/react.svg", "/tail.svg", "/node.svg", "/socket.svg"],
-    link: "/ui.forum.com",
+    img: "/forum.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    link: "https://forum-fb0f7.web.app/https://forum-fb0f7.web.app/",
   },
 ];
 
@@ -247,13 +242,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link:'https://github.com/sharif57/'
   },
   {
     id: 2,
     img: "/twit.svg",
+    link:'https://x.com/SharifMaha18228'
   },
   {
     id: 3,
     img: "/link.svg",
+    link:'https://www.linkedin.com/in/sharif-mahamud/'
   },
 ];
